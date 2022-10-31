@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Footer = () => {
     return ( 
         <div>
-         <Nav  fill variant="tabs" fixed="bottom" sticky="bottom">
+         <Nav  fill variant="tabs" >
             <Navbar.Brand href="#home">
             <img
               alt="ASH"
