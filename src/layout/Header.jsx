@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-const HeaderNews = () => {
+const Header = () => {
     return ( 
         <div >
             <Carousel>
@@ -46,4 +46,4 @@ const HeaderNews = () => {
      );
 }
  
-export default HeaderNews;
+export default Header;

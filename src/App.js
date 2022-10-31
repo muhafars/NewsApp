@@ -1,13 +1,8 @@
-import './App.css';
-import CardNews from './components/CardNews';
-import HeaderNews from './components/Header';
-import NavNews from './components/NavNews';
+import Home from "./display/Home";
 function App() {
   return (
     <div className="App">
-      <NavNews />
-      <HeaderNews />
-      <CardNews />
+      <Home />
     </div>
   );
 }

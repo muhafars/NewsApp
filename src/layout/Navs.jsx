@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-const NavNews = () => {
+const Navs = () => {
     return ( 
       <div>
         <Navbar bg="dark" variant="dark" expand="lg">
@@ -17,7 +17,7 @@ const NavNews = () => {
                 className="me-auto my-2 my-lg-0"
                 style={{ maxHeight: '100px' }}
                 navbarScroll>
-                <Nav.Link href="#action1">General</Nav.Link>
+                <Nav.Link href="#home">General</Nav.Link>
                 <Nav.Link href="#action2">Sport</Nav.Link>
                 <Nav.Link href="#action3">Entertainment</Nav.Link>
                 <Nav.Link href="#action4">Link</Nav.Link>
@@ -40,4 +40,4 @@ const NavNews = () => {
      );
 }
  
-export default NavNews;
+export default Navs;

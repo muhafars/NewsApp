@@ -1,8 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
-import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
-
 
 const CardNews = () => {
     const [post, setPost] = useState([ ]);
@@ -27,8 +25,7 @@ const CardNews = () => {
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                   Paragraph isi content field
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
@@ -36,7 +33,7 @@ const CardNews = () => {
                 </ListGroup>
                 <Card.Body >
                     <Button variant="primary" size="lg">
-                        Tekan Button Ini
+                      GetNews
                     </Button>
                 </Card.Body>
             </Card>
