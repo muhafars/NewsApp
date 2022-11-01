@@ -1,11 +1,9 @@
-import Home from "./display/Home";
-import Navs from "./layout/Navs";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Routing from "./services/Routing";
+
 function App() {
   return (
     <div className="App">
-      <Navs />
-      <Home />
+      <Routing />
     </div>
   );
 }

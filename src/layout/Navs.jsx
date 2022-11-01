@@ -1,12 +1,10 @@
-import { getByDisplayValue } from '@testing-library/react';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Link} from 'react-router-dom';
-import Business from '../display/Business';
+import {Link} from "react-router-dom";
 
 const Navs = () => {
     return ( 
@@ -20,11 +18,11 @@ const Navs = () => {
                 className="me-auto my-2 my-lg-0"
                 style={{ maxHeight: '100px' }}
                 navbarScroll>
-                <Nav.Link href="#home">General</Nav.Link>
-                <Nav.Link >Sport</Nav.Link>
-                <Nav.Link to="../display" >Entertainment</Nav.Link>
-                <Nav.Link to={Business}>Business</Nav.Link>
-                <Nav.Link href="#action5">Technology</Nav.Link>
+                <Nav.Link as={Link} to="/general" >General</Nav.Link>
+                <Nav.Link as={Link} to="/technology" >Technology</Nav.Link>
+                <Nav.Link as={Link} to="/sports">Sport</Nav.Link>
+                <Nav.Link as={Link} to="/entertainment" >Entertainment</Nav.Link>
+                <Nav.Link as={Link} to="/business">Business</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control

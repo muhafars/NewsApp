@@ -9,11 +9,11 @@ import axios from   "axios";
 
 
 
-const Technology  = () => {
+const Entertainment = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
      axios
-        .get("https://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=8e793b2afa0f4ac887747baf9ba950ee", {})
+        .get("https://newsapi.org/v2/top-headlines?country=id&category=entertainment&apiKey=8e793b2afa0f4ac887747baf9ba950ee", {})
         .then((res) => {
             console.log(res);
             setData(res.data.articles);
@@ -55,4 +55,4 @@ const Technology  = () => {
      );
 }
  
-export default Technology;
+export default Entertainment;

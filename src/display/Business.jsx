@@ -1,7 +1,6 @@
 
 import Header from "../layout/Header";
 
-// import Footer from "../layout/Footer";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -52,7 +51,6 @@ const Business = () => {
                 );
             })}
 
-            {/* <Footer /> */}
         </div>
      );
 }
